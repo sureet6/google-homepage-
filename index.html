@@ -1,3 +1,96 @@
+<style>
+    header {
+        font-family: Arial;
+        font-size: 13px;
+        text-decoration: none;
+        text-decoration-color: gray;
+     }
+    a {
+        text-decoration: none !important;
+        color: gray;
+    }
+    #navtopright {
+        text-align: right;
+        word-spacing: 10px;
+       
+    }
+    #navtopleft {
+        text-align: left;
+        margin-top: -20px;
+        word-spacing: 10px;
+    }
+    #googlelogo {
+        width: 540px;
+        height: 300px;
+        margin-top: 90px;
+        margin-right: 90px;
+        margin-bottom: 5px;
+        margin-left: 400px;
+    }
+    #searchbar {
+        width: 600px;
+        height: 50px;
+        margin-top: -80px;
+        padding: 5px, 8px, 0px, 14px;
+        border-radius: 25px;
+    }
+    button {
+        background-color: F2F2F2;
+        width: 150px;
+        height: 30px;
+        margin: 11px 4px;
+        border-radius: 4px;
+        cursor: pointer
+        font-family: Arial;
+        align-items: center;
+    }
+    form {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        font-family: arial;
+        font-size: 13px;
+    }
+    #french {
+        color: #1a0dab !important;
+    }
+    footer {
+        font-family: arial;
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    #canada {
+        width: 1420px;
+        height: 20px;
+        background-color: #f2f2f2;
+        margin-top: 100px;
+    }
+    #footerleft {
+        margin-bottom: 0px;
+        word-spacing: 10px;
+    }
+    #footerright {
+        text-align: right;
+        word-spacing: 10px;
+    }
+</style>
+
 <html>
-    
+    <header>
+        <nav class="nav" id="navtopright"> <a href="#gmail">Gmail</a> <a id="dot" href="#images">Images</a> <a href="dots"><img src="dots.jpg"></img></a> <a href="s"><img src="s.jpg"></img></a></nav>
+        <nav class="nav" id="navtopleft"> <a href="#about">About</a> <a href="#store">Store</a></nav>
+    </header>
+    <main>
+        <img id="googlelogo" src="https://computerhistory.org/wp-content/uploads/2019/06/New-Google-Logo-great.jpg"></img>
+            <form><input id="searchbar" type="text">
+                <br>
+                <button type="submit" id="googlesearch">Google Search</button>
+                <button type="submit" id="feelinglucky">I'm feeling Lucky</button> </form>
+                    <p>Google offered in: <a id="french" href="francais">Francais</a></p>
+    </main>
+    <footer id="canada">Canada </footer>
+        <br>
+    <footer id="footerleft"><a href="#advertising">Advertising</a> <a href="#business">Business</a> <a href="#howsearchworks">How Search Works</a></footer>
+    <footer id="footerright"><a href="#privacy">Privacy</a> <a href="#terms">Terms</a> <a href="#settings>Settings</footer>
 </html>
